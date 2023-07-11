@@ -17,9 +17,10 @@
     "url": "https://github.com/tojocky/node-printer.git"
   },
   "devDependencies": {
+    "node-gyp": "^9.4.0",
     "nodeunit": "*",
-    "prebuild": "^10.0.0",
-    "prebuild-ci": "^3.1.0"
+    "prebuild": "^11.0.4",
+    "prebuild-ci": "^4.0.0"
   },
   "engines": {
     "node": ">= 4.0.0"
@@ -44,6 +45,10 @@
   "main": "./lib/printer",
   "dependencies": {
     "nan": "github:jkleinsc/nan#remove_accessor_signature",
+<<<<<<< HEAD
     "prebuild-install": "^5.3.4"
+=======
+    "prebuild-install": "^7.1.1"
+>>>>>>> fe898ef880b2ef5a82cda89d5d0d744a71f8dfe8
   }
 }
